@@ -1,0 +1,27 @@
+{
+  "name": "datastore",
+  "version": "0.1.0",
+  "homepage": "https://github.com/freezedev/datastore",
+  "authors": [
+    "Johannes Stein <johannesstein@freeze-dev.com>"
+  ],
+  "description": "Managing keys and values in an ES6 like interface",
+  "main": "dist/datastore.js",
+  "keywords": [
+    "collection",
+    "map",
+    "datastore"
+  ],
+  "license": "UNLICENSE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "eventmap": "~1.1.0",
+    "mixer": "~0.3.0"
+  }
+}
