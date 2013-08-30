@@ -58,6 +58,7 @@ define 'datastore', ['eventmap', 'mixer'], (EventMap, mixer) ->
           if @data.state[key] isnt 'ro'
             @data.collection[key] = value
             @trigger 'set', key, value
+            @trigger 'change', key, value
         else
           @add key, value
       else
