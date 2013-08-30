@@ -91,6 +91,7 @@
             if (this.data.state[key] !== 'ro') {
               this.data.collection[key] = value;
               this.trigger('set', key, value);
+              this.trigger('change', key, value);
             }
           } else {
             this.add(key, value);
