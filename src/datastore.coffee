@@ -1,10 +1,9 @@
-define 'datastore', ['eventmap', 'mixer'], (EventMap, mixer) ->
+doLowerCase = (str) -> str.replace(/-/g, '').replace(/_/g, '').toLowerCase()
 
-  doLowerCase = (str) -> str.replace(/-/g, '').replace(/_/g, '').toLowerCase()
-
+udefine 'datastore', ['mixer', 'eventmap'], (mixer, EventMap) ->
   class DataStore
   
-    contructor: (content) ->
+    constructor: (content) ->
       mixer DataStore::, new EventMap()
       
       @data =
