@@ -1,6 +1,6 @@
 {
   "name": "datastore",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/freezedev/datastore",
   "authors": [
     "Johannes Stein <johannesstein@freeze-dev.com>"
@@ -21,7 +21,8 @@
     "tests"
   ],
   "dependencies": {
-    "eventmap": "~1.1.0",
-    "mixer": "~0.3.0"
+    "eventmap": "~1.2.0",
+    "mixer": "~0.4.0",
+    "udefine": "~0.7.3"
   }
 }
