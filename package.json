@@ -1,6 +1,6 @@
 {
-  "name": "mixer",
-  "version": "0.3.0",
+  "name": "datastore",
+  "version": "0.2.0",
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-coffeelint": "*",
