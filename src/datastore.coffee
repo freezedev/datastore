@@ -4,7 +4,7 @@ udefine 'datastore', ['mixer', 'eventmap'], (mixer, EventMap) ->
   class DataStore
   
     constructor: (content) ->
-      mixer DataStore::, new EventMap()
+      mixer [@, DataStore::], new EventMap()
       
       @data =
         collection: {}
