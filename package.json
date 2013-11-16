@@ -7,5 +7,31 @@
     "grunt-contrib-uglify": "*",
     "grunt-contrib-coffee": "*",
     "matchdep": "*"
+  },
+  "description": "Manage your data ECMAScript 6 like + proxies",
+  "main": "dist/datastore.js",
+  "dependencies": {
+    "grunt-coffeelint": "~0.0.7",
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freezedev/datastore.git"
+  },
+  "keywords": [
+    "data",
+    "store",
+    "proxy"
+  ],
+  "author": "Johannes Stein",
+  "license": "Public domain",
+  "bugs": {
+    "url": "https://github.com/freezedev/datastore/issues"
   }
 }
