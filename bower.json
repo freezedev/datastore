@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "eventmap": "~1.2.0",
-    "mixer": "~0.4.0",
-    "udefine": "~0.7.3"
+    "mixer": "~0.5.0",
+    "udefine": "~0.8.2"
   }
 }
