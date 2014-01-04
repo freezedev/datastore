@@ -16,11 +16,11 @@
     return str.replace(/-/g, '').replace(/_/g, '').toLowerCase();
   };
 
-  udefine('datastore', ['mixer', 'eventmap'], function(mixer, EventMap) {
+  udefine('datastore', ['mixedice', 'eventmap'], function(mixedice, EventMap) {
     var DataStore;
     return DataStore = (function() {
       function DataStore(content) {
-        mixer(DataStore.prototype, new EventMap());
+        mixedice([this, DataStore.prototype], new EventMap());
         this.data = {
           collection: {},
           state: {}
