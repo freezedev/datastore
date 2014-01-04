@@ -1,10 +1,10 @@
 doLowerCase = (str) -> str.replace(/-/g, '').replace(/_/g, '').toLowerCase()
 
-udefine 'datastore', ['mixer', 'eventmap'], (mixer, EventMap) ->
+udefine 'datastore', ['mixedice', 'eventmap'], (mixedice, EventMap) ->
   class DataStore
   
     constructor: (content) ->
-      mixer [@, DataStore::], new EventMap()
+      mixedice [@, DataStore::], new EventMap()
       
       @data =
         collection: {}
